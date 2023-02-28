@@ -1,4 +1,4 @@
-package br.com.test.crud.controller;
+package br.com.user.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.test.crud.entity.User;
-import br.com.test.crud.service.UserService;
+import br.com.user.entity.User;
+import br.com.user.service.UserService;
 
 @RestController
 @RequestMapping("user")

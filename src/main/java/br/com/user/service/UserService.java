@@ -1,4 +1,4 @@
-package br.com.test.crud.service;
+package br.com.user.service;
 
 import java.io.IOException;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.test.crud.entity.User;
-import br.com.test.crud.repository.UserRepository;
+import br.com.user.entity.User;
+import br.com.user.repository.UserRepository;
 
 @Service
 public class UserService {
